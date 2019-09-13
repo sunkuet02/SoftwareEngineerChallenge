@@ -23,13 +23,13 @@
 
     Java Version:
     ```java
-	public interface Queue[T] {
-	    public Queue<T> enQueue(T t);
-	    #Removes the element at the beginning of the immutable queue, and returns the new queue.
-	    public Queue<T> deQueue();
-	    public T head();
-	    public boolean isEmpty();
-	}
+	public interface Queue<T> {
+        Queue<T> enQueue(T t);
+        // Removes the element at the beginning of the immutable queue,and returns the new queue.
+        Queue<T> deQueue();
+        T head();
+        boolean isEmpty();
+    }
     ```
 
 2. Design Question: Design A Google Analytic like Backend System.
